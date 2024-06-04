@@ -1,0 +1,37 @@
+params:
+ct0
+auth_token
+x-csrf-token
+
+
+curl -v -x http://v3YFLY:koW6u7@168.81.238.59:8000 \
+        -H 'accept: */*' \
+        -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7' \
+        -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+        -H 'content-type: application/json' \
+        -H 'cookie: guest_id=v1%3A171691201569628673; night_mode=2; d_prefs=MToxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw; guest_id_ads=v1%3A171691201569628673; guest_id_marketing=v1%3A171691201569628673; personalization_id="v1_mHk/PlBGvc/Xi6/f5sCuHA=="; g_state={"i_l":0}; kdt=pREpbfKw4sj0tTYHQ0hiF2l8tS2IUc0CmfELCzEG; auth_token=9f3c4b7dea1a576653fdf1acb2a55d7ac2b912c9; ct0=b27e1d825ee1281f55bf3a5c644f95832667c5159ca9858303cb4f016d032c61d7c5ae58c7c432aaac4ffb4563f99c6380a5f5268e8e31ed34b57e6840f145dfc646300341858a0847d6d8350955bdc1; att=1-pZIoUQxxbztMdVY33b70EviP6LyRfeXZiO3i8BgW; twid=u%3D1793723754427617280; twtr_pixel_opt_in=Y; lang=en; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCJYsxMOPAToMY3NyZl9p%250AZCIlZDhjMDcyMmFkM2FkY2I2ZTcwM2RlMWMwYmE3MTU1MWM6B2lkIiVjMGI5%250ANDVjOTI4MzgyMmM1OTlmNDYxZjcxMTg0ZGY5MA%253D%253D--1954ee2b9f0a4de74ae4d60d89bceace82518431' \
+        -H 'priority: u=1, i' \
+        -H 'referer: https://x.com/trac_btc/followers' \
+        -H 'sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
+        -H 'sec-ch-ua-mobile: ?0' \
+        -H 'sec-ch-ua-platform: "Linux"' \
+        -H 'sec-fetch-dest: empty' \
+        -H 'sec-fetch-mode: cors' \
+        -H 'sec-fetch-site: same-origin' \
+        -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36' \
+        -H 'x-client-transaction-id: /wsgtzPKF9+lXOxvo5iYB7oZNW+2/ZG2pZklOIz9xWhw+9q9/mD+uBqtMHfQjEbtu65j+P2XyfsxOw3bazIoRrHg0VSy/A' \
+        -H 'x-client-uuid: 5fe8da48-664f-4695-aaa8-17c056c4c35e' \
+        -H 'x-csrf-token: 2460b7a4cc182754fc2aa420a6d572ebac8943a78d746a3e1be66833479314080a4747bf792f9a1a8218893e9e3da5317ef5c602898b18bd2ea5a0da5c01de82850f9bc49adc390db9ea42415779297e' \
+        -H 'x-twitter-active-user: yes' \
+        -H 'x-twitter-auth-type: OAuth2Session' \
+        -H 'x-twitter-client-language: en' \
+        https://api.twitter.com/1.1/followers/list.json?user_id=2235729541&skip_status=true&include_user_entities=false&count=200
+
+
+curl -v -x http://v3YFLY:koW6u7@168.81.238.59:8000 \
+  -H 'accept: */*' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/json' \
+  -H 'cookie: guest_id=v1%3A171691201569628673; night_mode=2; d_prefs=MToxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw; guest_id_ads=v1%3A171691201569628673; guest_id_marketing=v1%3A171691201569628673; personalization_id="v1_mHk/PlBGvc/Xi6/f5sCuHA=="; g_state={"i_l":0}; kdt=pREpbfKw4sj0tTYHQ0hiF2l8tS2IUc0CmfELCzEG; auth_token=528b200650e0a94d50f666b8e13bf7d52ce6b9bd; ct0=70bcab339ac9a538d26c19d8dc990758cfd1965a80ace74d9e86ec0b3304bc2dba13603a92f0611766e95d528ae6724a86d2b3a9135a33e63160d4ea408c9efe52ad97bf002804d305a6c63c53af0a84; att=1-pZIoUQxxbztMdVY33b70EviP6LyRfeXZiO3i8BgW; twid=u%3D1639270734181588999; twtr_pixel_opt_in=Y; lang=en; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo"%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCJYsxMOPAToMY3NyZl9p"%250AZCIlZDhjMDcyMmFkM2FkY2I2ZTcwM2RlMWMwYmE3MTU1MWM6B2lkIiVjMGI5"%250ANDVjOTI4MzgyMmM1OTlmNDYxZjcxMTg0ZGY5MA"%253D"%253D--1954ee2b9f0a4de74ae4d60d89bceace82518431' \
+  -H 'x-csrf-token: 70bcab339ac9a538d26c19d8dc990758cfd1965a80ace74d9e86ec0b3304bc2dba13603a92f0611766e95d528ae6724a86d2b3a9135a33e63160d4ea408c9efe52ad97bf002804d305a6c63c53af0a84' \
+https://api.twitter.com/1.1/followers/list.json?user_id=1356248804899565569&skip_status=true&include_user_entities=false&count=200&cursor=0

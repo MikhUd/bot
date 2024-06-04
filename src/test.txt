@@ -1,0 +1,23 @@
+req.Header.Set("Accept", "*/*")
+	req.Header.Set("Accept-Language", "en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7")
+	req.Header.Set("Authorization", "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA")
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("Cookie", "guest_id=v1%3A171691201569628673; night_mode=2; d_prefs=MToxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw; guest_id_ads=v1%3A171691201569628673; guest_id_marketing=v1%3A171691201569628673; personalization_id=\"v1_mHk/PlBGvc/Xi6/f5sCuHA==\"; g_state={\"i_l\":0}; kdt=pREpbfKw4sj0tTYHQ0hiF2l8tS2IUc0CmfELCzEG; auth_token=3098c480d762868094f11238f5e45a805ed2926f; ct0=2460b7a4cc182754fc2aa420a6d572ebac8943a78d746a3e1be66833479314080a4747bf792f9a1a8218893e9e3da5317ef5c602898b18bd2ea5a0da5c01de82850f9bc49adc390db9ea42415779297e; att=1-pZIoUQxxbztMdVY33b70EviP6LyRfeXZiO3i8BgW; twid=u%3D1639270734181588999; twtr_pixel_opt_in=Y; lang=en; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCJYsxMOPAToMY3NyZl9p%250AZCIlZDhjMDcyMmFkM2FkY2I2ZTcwM2RlMWMwYmE3MTU1MWM6B2lkIiVjMGI5%250ANDVjOTI4MzgyMmM1OTlmNDYxZjcxMTg0ZGY5MA%253D%253D--1954ee2b9f0a4de74ae4d60d89bceace82518431")
+	req.Header.Set("Priority", "u=1, i")
+	req.Header.Set("Referer", "https://x.com/trac_btc/followers")
+	req.Header.Set("Sec-Ch-Ua", "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"")
+	req.Header.Set("Sec-Ch-Ua-Mobile", "?0")
+	req.Header.Set("Sec-Ch-Ua-Platform", "\"Linux\"")
+	req.Header.Set("Sec-Fetch-Dest", "empty")
+	req.Header.Set("Sec-Fetch-Mode", "cors")
+	req.Header.Set("Sec-Fetch-Site", "same-origin")
+	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
+	req.Header.Set("X-Client-Transaction-Id", "/wsgtzPKF9+lXOxvo5iYB7oZNW+2/ZG2pZklOIz9xWhw+9q9/mD+uBqtMHfQjEbtu65j+P2XyfsxOw3bazIoRrHg0VSy/A")
+	req.Header.Set("X-Client-Uuid", "5fe8da48-664f-4695-aaa8-17c056c4c35e")
+	req.Header.Set("X-Csrf-Token", "2460b7a4cc182754fc2aa420a6d572ebac8943a78d746a3e1be66833479314080a4747bf792f9a1a8218893e9e3da5317ef5c602898b18bd2ea5a0da5c01de82850f9bc49adc390db9ea42415779297e")
+	req.Header.Set("X-Twitter-Active-User", "yes")
+	req.Header.Set("X-Twitter-Auth-Type", "OAuth2Session")
+	req.Header.Set("X-Twitter-Client-Language", "en")
+
+
+	http://v3YFLY:koW6u7@168.81.238.59:8000
